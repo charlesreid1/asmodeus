@@ -35,7 +35,7 @@ pip install Markdown
 pip install pelican
 ```
 
-### Directories
+### Directories and Files
 
 `pelican/` - Files and Pelican configuration used to generate static content 
 
@@ -58,15 +58,55 @@ Finally, it will re-generate the static content for the Pelican blog.
 
 ### Tools Required
 
-Olipy:
+This portion of the toolchain uses Olipy. 
+Olipy is a set of Python scripts that depends on 
+TextBlob and NLTK (Natural Language Toolkit), 
+which are also Python packages.
+
+To install dependencies:
+
+```
+pip install TextBlob
+pip install nltk
+```
+
+To use Olipy, clone a copy of Olipy into the directory that you 
+want to use it from: 
 
 ```
 git clone http://github.com/leonardr/olipy
 ```
 
-### Directories
+Example directory layout:
 
-`content/` - directory containing the tools for content generation
+```
+asmodeus
+    ├── README.md
+    ├── pelican/
+    ├── olipy/
+    ├── script_that_uses_olipy.py
+```
+
+The script that uses Olipy will import the Olipy module 
+that it wants to use as follows: 
+
+```
+from olipy.queneau import WordAssembler
+from olipy.data import load_json
+
+assembler = WordAssembler(load_json("dinosaurs.json"))
+```
+
+See the `example.dinosaurs.py` file for an exmaple of how this can be set up.
+
+
+### Directories and Files
+
+`ContentGeneration.py` - Procedurally generates content and feeds it to the blog post maker. 
+
+`BlogPostMaker.py` - Takes the procedurally generated content and makes a blog post in the `pelican/` directory.
+
+`StaticContent.py` - Regenerates static content for the Pelican blog site.
 
 ### Branches
 
@@ -77,9 +117,19 @@ git clone http://github.com/leonardr/olipy
 <a name="commit"></a>
 ## The Commit Toolchain
 
-Add new blog posts
+When automatically generated content has been turned into a new blog post, and the static content for the site has been updated, 
+it is time to actually commit changes. This portion of the code enables adding colorful dots to your commit graph. 
 
-Add new static site contents.
+### Tools Required
+
+This requires a Python library to interface with git.
+
+### Directories and Files
+
+`GitAddBlogPosts.py` - adds the new blog post in the `pelican/` directory to the `master` branch.
+
+`GitAddSiteContent.py` - adds the updated Pelican blog static content to the `gh-pages` branch.
+
 
 
 
@@ -87,6 +137,8 @@ Add new static site contents.
 ## The Scheduling Toolchain
 
 Using libfaketime and other trickery to make the commit graph look just so.
+
+This will take some thinking through...
 
 ### Tools Required
 
