@@ -1,25 +1,50 @@
 # Asmodeus
 
+[Pelican](#pelican)
+
+[Content](#content)
+
+[Commit](#commit)
+
 Attempting demonic possession of my Github account. What could possibly go wrong?
 
 Oops, shouldn't have run that script. Let me just...
 
 Wait... what's... oh no! No no no noooooo...
 
-Fm'latgh hrii nnnep uaaah kn'a vulgtm y'hahor ph'orr'e lloig, 'fhalma ph'bug lw'nafh fm'latghoth Yoggoth uln ah syha'hoth Yoggothor, 
-fhtagnnyth nilgh'ri zhro naehye sll'ha shugg Yoggoth. R'lyeh nglui ftaghu stell'bsna ah nnnya nas'uhn lw'nafhog, hafh'drnor y-Hastur 
-shogg Shub-Niggurath nnnTsathoggua naah, cshagg gof'nn shogg mg 'aior nglui. N'ghft ah uln mg nasll'ha s'uhn fm'latgh f'shtunggli 
-ebunma nilgh'ri vulgtlagln throd, ph'mnahn' Cthulhu hafh'drnyar nnnchtenff nog mnahn' kn'a naooboshu syha'h Nyarlathotep.
+Fm'latgh hrii nnnep uaaah kn'a vulgtm y'hahor ph'orr'e lloig, 'fhalma ph'bug lw'nafh fm'latghoth Yoggoth uln ah syha'hoth 
+ebunma nilgh'ri vulgtlagln throd, ph'mnahn' Cthulhu hafh'drnyar nnnchtenff nog mnahn' kn'a naooboshu syha'h Yoggothor! 
 
-## Pelican Site
 
-This repository has a site managed with Pelican, a static page generator for Python.
 
-The `pelican/` folder contains the files and configuration used by Pelican to generate the static content.
+<a name="pelican"></a>
+## The Pelican Site
 
-The `gh-pages` branch contains the static content.
+This tool will manage a website with Pelican, a static page generator for Python.
 
-## Generation Toolchain
+### Tools Required
+
+Pelican:
+
+`
+pip install Markdown
+pip install pelican
+`
+
+### Directories
+
+`pelican/` Files and Pelican configuration used to generate static content 
+
+### Branches
+
+The `gh-pages` branch contains the static content, which is served up by Github Pages.
+
+[http://charlesreid1.github.io/asmodeus](http://charlesreid1.github.io/asmodeus) is the webpage where the static content is served up.
+
+
+
+<a name="content"></a>
+## The Content Generation Toolchain
 
 Text
 
@@ -27,7 +52,10 @@ Blog post
 
 Pelican site static content
 
-## Commit Toolchain
+
+
+<a name="commit"></a>
+## The Commit Toolchain
 
 Add new blog posts
 
