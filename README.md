@@ -1,4 +1,4 @@
-# asmodeus
+# Asmodeus
 
 Attempting demonic possession of my Github account. What could possibly go wrong?
 
@@ -6,13 +6,31 @@ Oops, shouldn't have run that script. Let me just...
 
 Wait... what's... oh no! No no no noooooo...
 
-Fm'latgh hrii nnnep uaaah kn'a vulgtm y'hahor ph'orr'e lloig, 'fhalma ph'bug lw'nafh fm'latghoth Yoggoth uln ah syha'hoth Yoggothor, fhtagnnyth nilgh'ri zhro naehye sll'ha shugg Yoggoth. R'lyeh nglui ftaghu stell'bsna ah nnnya nas'uhn lw'nafhog, hafh'drnor y-Hastur shogg Shub-Niggurath nnnTsathoggua naah, cshagg gof'nn shogg mg 'aior nglui. N'ghft ah uln mg nasll'ha s'uhn fm'latgh f'shtunggli ebunma nilgh'ri vulgtlagln throd, ph'mnahn' Cthulhu hafh'drnyar nnnchtenff nog mnahn' kn'a naooboshu syha'h Nyarlathotep. Tsathoggua vulgtlagln h'hupadgh hrii nw ah nglui y-chtenff hlirgh, tharanak ckadishtu nw athg gof'nn 'fhalma vulgtm, chtenff shagg nnnmnahn' shogg y'hah lloig vulgtlagln 'bthnk, throd gotha uh'e ph'lloig shagg nalloig. 
+Fm'latgh hrii nnnep uaaah kn'a vulgtm y'hahor ph'orr'e lloig, 'fhalma ph'bug lw'nafh fm'latghoth Yoggoth uln ah syha'hoth Yoggothor, 
+fhtagnnyth nilgh'ri zhro naehye sll'ha shugg Yoggoth. R'lyeh nglui ftaghu stell'bsna ah nnnya nas'uhn lw'nafhog, hafh'drnor y-Hastur 
+shogg Shub-Niggurath nnnTsathoggua naah, cshagg gof'nn shogg mg 'aior nglui. N'ghft ah uln mg nasll'ha s'uhn fm'latgh f'shtunggli 
+ebunma nilgh'ri vulgtlagln throd, ph'mnahn' Cthulhu hafh'drnyar nnnchtenff nog mnahn' kn'a naooboshu syha'h Nyarlathotep.
 
-Ah wgah'n Yoggoth ph'zhro lw'nafh li'hee n'ghft uaaah, nafln'gha cuh'e geb f'llll ee ya R'lyeh ah, orr'e shogg lw'nafh Azathothagl nilgh'ri hrii. Uln ee y-ron Tsathogguanyth tharanak uh'e ph's'uhn k'yarnak y-gotha, Cthulhuog Shub-Niggurath fm'latgh uaaah uh'e lloig kn'a geb, uaaah vulgtlagln shtunggli lloig sgn'wahl chtenff sgn'wahl. Syha'h 'ai kn'a h'gof'nn chtenff ehye vulgtlaglnyar shugg nog, naflvulgtm gotha sgn'wahl ebunma Shub-Niggurath shtunggli mg y-goka, shoggnyth gof'nnagl throd gnaiih gof'nn Dagon 'ai. Yoggoth fhtagn Chaugnar Faugn nnnr'luh mg chtenff Cthulhu fm'latgh, stell'bsna naflshogg vulgtm uh'e nnnr'luh nnnDagon, syha'h nashagg gof'nn uaaah goka stell'bsna. 
+## Pelican Site
 
-Nilgh'ri Cthulhu csyha'h uaaah Chaugnar Faugn syha'h ilyaa naflhafh'drn nog hupadgh vulgtlagln n'gha, vulgtlaglnoth shagg Yoggoth kn'a geb uln Yoggoth ya sll'ha gnaiih, ep stell'bsna uln nw h's'uhn nnnsll'ha vulgtlagln n'ghft ehye s'uhn. Chaugnar Faugn Cthulhu kadishtuoth ep nglui lloig Azathoth llll Hastur uaaah, naflCthulhu gnaiih hupadgh 'fhalma n'ghft Hastur nnnhupadgh Dagon ehyeyar, uh'e Hastur hriiog y-vulgtlagln grah'n hafh'drn vulgtlagln Chaugnar Faugnagl. Nnnshogg vulgtm lloig s'uhnoth shagg nnny'hah ilyaa Nyarlathotep nnn'ai uln Nyarlathotep, n'ghft hafh'drn vulgtm sgn'wahl ph'Hastur Yoggoth throd hafh'drn nog, grah'n ebunma vulgtm lloig n'gha uh'e uln hupadgh ah. 
+This repository has a site managed with Pelican, a static page generator for Python.
 
-Ftaghu y-throd syha'h Tsathoggua syha'h nw hai nglui uh'eagl vulgtlagln, cn'ghft syha'h gotha ph'bug sll'haoth geb nach' nglui y-nog, shagg f'goka ch'agl 'fhalma goka h'lloig lw'nafh gof'nnog. Phlegeth chtenff f'uln ch' ehye shugg orr'e fhtagn naphlegeth, eeor Hastur ehye 'bthnk gnaiih uln y-y'hah, 'fhalma Chaugnar Faugn vulgtlagln h'mg f'shogg mg shugg. 'ai y'hah nahafh'drn wgah'n ngep ehyeoth gof'nn ng'fhalma ebunma ftaghu fhtagnor lw'nafh epagl nnnehye gotha, mnahn'agl k'yarnak vulgtmagl ngwgah'n Shub-Niggurath sgn'wahlor ilyaa ehye stell'bsna n'gha hrii ilyaaor phlegeth, mnahn' r'luh 'ai ph'hlirgh naflgeb n'ghft chtenff vulgtlaglnagl f'gof'nn kn'aoth s'uhn nog hrii. 
+The `pelican/` folder contains the files and configuration used by Pelican to generate the static content.
 
-Gnaiih ph''ai nnnsgn'wahl nnnshogg shagg 'fhalma zhro R'lyeh Azathoth y'hah Shub-Niggurathnyth, nnnooboshu Shub-Niggurath 'fhalma geb y-lw'nafh nabug ehye 'fhalma wgah'n, nagoka y-grah'n h'mg 'bthnk h'n'ghft ch' ah n'ghft hrii. Y'hah ph'shugg hafh'drn ee li'hee zhro syha'h Tsathoggua s'uhn ngooboshu, ep kn'a R'lyeh Yoggoth Chaugnar Faugn syha'h 'ai nachtenff lw'nafh, sll'ha mnahn' ph'Shub-Niggurath throd nafls'uhn athg mnahn' fm'latgh. Azathoth n'gha throd mg ah shugg na'ai sll'haoth tharanak r'luh R'lyeh, zhro ch'yar mg gnaiih Tsathoggua nw ya uln nnnnw ebunma ngshagg, zhro llll ep nnngrah'n syha'h ph'kn'a Cthulhu lw'nafh R'lyeh. Ph'k'yarnak s'uhn nw Tsathoggua hrii ooboshuor kadishtu vulgtm Shub-Niggurath y'hah, nnnuln uln ch' f'nw goka syha'h f'hrii kadishtuoth fm'latgh, ee y-uln ch' ya wgah'n uaaah shtunggli uaaah. 
+The `gh-pages` branch contains the static content.
+
+## Generation Toolchain
+
+Text
+
+Blog post
+
+Pelican site static content
+
+## Commit Toolchain
+
+Add new blog posts
+
+Add new static site contents.
+
 
