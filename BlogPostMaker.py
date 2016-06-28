@@ -10,10 +10,11 @@ def make_a_blog_post():
     - Location of blog file
     """
     # Blog file
-    blog_file = prefix+"/pelican/content/blogpost.md"
+    file_prefix = datetime.now().strftime("%Y-%m-%d")
+    blog_file = prefix+"/pelican/content/%s.md"%(file_prefix)
 
     # Header
-    my_title = "Dino Ipsum"
+    my_title = "Dino Ipsum "+file_prefix
     my_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     my_cat = "Dinosaurs"
 
