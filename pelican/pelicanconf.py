@@ -3,10 +3,10 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'charlesreid1'
-SITENAME = u'Apollo Space Junk Bot Flock'
+SITENAME = u'Asmodeus'
 
 # If you are building this for Github, you need to use the site prefix /apollospacejunk 
-SITEURL = '/apollospacejunk'
+SITEURL = ''
 
 # If you are building this for local testing, you need to use the site prefix /
 #SITEURL=''
@@ -22,12 +22,12 @@ DEFAULT_LANG = u'en'
 
 # --------------8<---------------------
 
-SITETAGLINE = "Houston, Apollo 11. [Long pause.] This Entry PAD assumes no Midcourse 6. Over."
+SITETAGLINE = "asdf! qwerty!"
 
 # this image must be in content/images/
 SITEIMG = "Apollo12ConradSurveyor.jpg" 
 IMGVERTOFFSET = "120px"
-BLOGTITLE = "Dispatches: Space Junk Blog"
+BLOGTITLE = "asdf. qwerty."
 
 
 
