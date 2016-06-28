@@ -28,7 +28,7 @@ nnnchtenff nog mnahn' kn'a naooboshu syha'h Yoggothor!
 <a name="pelican"></a>
 ## The Pelican Site
 
-This tool will manage a website with Pelican, a static page generator for Python.
+This bot will manage a website with Pelican, a static page generator for Python.
 
 ### Tools Required
 
@@ -77,7 +77,7 @@ To generate the static content for Github Pages:
 <a name="content"></a>
 ## The Content Generation Toolchain
 
-This tool will automatically generate text using Olipy, a procedural and artistic text generation library.
+This bot will automatically generate text using Olipy, a procedural and artistic text generation library.
 
 It will then generate blog posts using the automatically generated text.
 
