@@ -1,5 +1,6 @@
 olipy
 pelican/output/
+pelican/output
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
