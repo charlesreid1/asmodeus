@@ -8,6 +8,10 @@
 
 [Commit](#commit)
 
+
+
+## About 
+
 Attempting demonic possession of my Github account. What could possibly go wrong?
 
 Oops, shouldn't have run that script. Let me just...
@@ -28,7 +32,7 @@ This tool will manage a website with Pelican, a static page generator for Python
 
 ### Tools Required
 
-Pelican:
+To install Pelican, use pip:
 
 ```
 pip install Markdown
@@ -44,6 +48,29 @@ pip install pelican
 `gh-pages` branch - contains the static content, which is served up by Github Pages.
 
 [http://charlesreid1.github.io/asmodeus](http://charlesreid1.github.io/asmodeus) - webpage where the static content is served up.
+
+### Instructions
+
+To configure the Pelican page:
+* Edit the file `pelican/pelicanconf.py`
+
+To add content to the Pelican page:
+* Put the content into a new markdown file with the proper headings.
+* Put the markdown file into the `pelican/content/` directory.
+
+To generate the static content for the site in order to test it locally:
+* Go to the Pelican directory, `cd pelican/`
+* Modify `pelican/pelicanconf.py` and set the `SITEURL` variable to be blank
+* Generate static content with `pelican content`
+* Start a local web server on port 8080 in the output directory, `cd output && python -m SimpleHTTPServer 8080`
+* Test the static content by opening your browser and going to `localhost:8080`
+
+To generate the static content for Github Pages:
+* Go to the Pelican directory, `cd pelican/` 
+* Modify `pelican/pelicanconf.py` and set the `SITEURL` variable to `asmodeus`
+* Clone a copy of the `gh-pages` branch into an `output/` directory so that the static content will be generated directly into the `gh-pages` branch, `git clone -b gh-pages https://github.com/charlesreid1/asmodeus output/`
+* Generate static content, `pelican content` (this will dump it into the `output/` directory)
+* Update the static content in the `gh-pages` branch, `cd gh-pages && git add && git commit -m 'updating website' && git push origin gh-pages`
 
 
 
@@ -97,8 +124,7 @@ from olipy.data import load_json
 assembler = WordAssembler(load_json("dinosaurs.json"))
 ```
 
-See the `example.dinosaurs.py` file for an exmaple of how this can be set up.
-
+See the `example.dinosaurs.py` file for an example of how this can be set up.
 
 ### Directories and Files
 
