@@ -5,11 +5,11 @@ from __future__ import unicode_literals
 AUTHOR = u'charlesreid1'
 SITENAME = u'Asmodeus'
 
-# If you are building this for Github, you need to use the site prefix /apollospacejunk 
-SITEURL = ''
+# If you are building this for Github, you need to use the site prefix /project-name
+#SITEURL = ''
 
 # If you are building this for local testing, you need to use the site prefix /
-#SITEURL=''
+SITEURL=''
 
 PATH = 'content'
 
@@ -22,27 +22,23 @@ DEFAULT_LANG = u'en'
 
 # --------------8<---------------------
 
-SITETAGLINE = "asdf! qwerty!"
+SITETAGLINE = "This Is The Site Tagline"
 
-# this image must be in content/images/
-SITEIMG = "Apollo12ConradSurveyor.jpg" 
-IMGVERTOFFSET = "120px"
-BLOGTITLE = "asdf. qwerty."
+### # this image must be in content/images/
+### SITEIMG = "Apollo12ConradSurveyor.jpg" 
+### IMGVERTOFFSET = "120px"
+
+BLOGTITLE = "This Is The Blog Title"
 
 
 
-# to install this theme:
-# git checkout http://github.com/charlesreid1/coffin-spore-theme
-# pelican-themes -i coffin-spore-theme
-THEME = 'coffin-spore-theme'
+THEME = 'atom-hammer-theme'
 
 
 
 
 # Don't try to turn HTML files into pages
 READERS = {'html': None}
-
-#PLUGIN_PATHS = ['/Users/charles/codes/pelican-plugins/']
 
 STATIC_PATHS = ['images']
 
@@ -63,7 +59,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-DEFAULT_PAGINATION = False
+DEFAULT_PAGINATION = True
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+

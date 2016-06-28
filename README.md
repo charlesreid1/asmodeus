@@ -32,6 +32,9 @@ nnnchtenff nog mnahn' kn'a naooboshu syha'h Yoggothor!
 
 This bot will manage a website with Pelican, a static page generator for Python.
 
+The pelican site uses the [Atom Hammer Pelican Theme](http://github.com/charlesreid1/atom-hammer-theme), 
+a custom Pelican theme I created for this purpose.
+
 ### Tools Required
 
 To install Pelican, use pip:
