@@ -2,11 +2,13 @@
 
 **Table of Contents:**
 
-[Pelican](#pelican)
+[The Pelican Blog Site](#pelican)
 
-[Content](#content)
+[The Static Content Generator Toolchain](#content)
 
-[Commit](#commit)
+[The Commit Toolchain](#commit)
+
+[The Scheduling Toolchain](#scheduling)
 
 
 
