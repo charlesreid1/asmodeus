@@ -3,7 +3,15 @@ from olipy.queneau import WordAssembler
 from olipy.data import load_json
 import textwrap
 
+prefix = "/Volumes/noospace/Users/charles/codes/asmodeus/"
+
 def generate_content():
+    """
+    This method is simple, but it could use some more arguments.
+    - Dinosaurs, or asteroids?
+    - Custom text generation modules?
+    - Number of lines/items?
+    """
 
     assembler = WordAssembler(load_json("dinosaurs.json"))
     
@@ -22,4 +30,7 @@ def generate_content():
     body = "\n\n".join(dinos)
     
     return body
+
+if __name__=="__main__":
+    print generate_content()
 
