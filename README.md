@@ -2,13 +2,13 @@
 
 **Table of Contents:**
 
-[The Pelican Blog Site](#pelican)
+[The Pelican Blog Site](#pelican) (Status: in progress)
 
-[The Static Content Generator Toolchain](#content)
+[The Static Content Generator Toolchain](#content) (Status: done)
 
-[The Commit Toolchain](#commit)
+[The Commit Toolchain](#commit) (Status: not started)
 
-[The Scheduling Toolchain](#scheduling)
+[The Scheduling Toolchain](#scheduling) (Status: not started)
 
 
 
