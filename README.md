@@ -196,18 +196,29 @@ See the `example.dinosaurs.py` file for an example of how this can be set up.
 <a name="commit"></a>
 ## The Commit Toolchain
 
-When automatically generated content has been turned into a new blog post, and the static content for the site has been updated, 
-it is time to actually commit changes. This portion of the code enables adding colorful dots to your commit graph. 
+When automatically generated content has been turned into a new blog post, 
+and the static content for the site has been updated, 
+it is time to actually commit changes. This portion of the code 
+enables adding colorful dots to your commit graph. 
 
 ### Tools Required
 
-This requires a Python library to interface with git.
+This requires the git library for Python to allow Python to interface with git. 
+
+The git library allows you to create a Python object representing the repository,
+and use it to interact with the git repository in various ways.
+
+We want to do two things:
+* Add the markdown for the new blog posts to the master branch
+* Add the newly-generated static content to the gh-pages branch
 
 ### Directories and Files
 
-`GitAddBlogPosts.py` - adds the new blog post in the `pelican/` directory to the `master` branch.
+`GitAddBlogPosts.py` - adds the new blog post in the `pelican/` directory 
+to the `master` branch.
 
-`GitAddSiteContent.py` - adds the updated Pelican blog static content to the `gh-pages` branch.
+`GitAddStaticContent.py` - adds the updated Pelican blog static content 
+to the `gh-pages` branch.
 
 
 
