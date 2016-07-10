@@ -2,6 +2,10 @@
 
 **Table of Contents:**
 
+[about](#about)
+
+[TLDR: I CAN HAZ RUN PROGRAM NAO](#tldr)
+
 [The Pelican Blog Site](#pelican) (Status: in progress)
 
 [The Static Content Generator Toolchain](#content) (Status: done)
@@ -12,6 +16,7 @@
 
 
 
+<a name="pelican"></a>
 ## About 
 
 Attempting demonic possession of my Github account. What could possibly go wrong?
@@ -24,6 +29,42 @@ Fm'latgh hrii nnnep uaaah kn'a vulgtm y'hahor ph'orr'e lloig,
 'fhalma ph'bug lw'nafh fm'latghoth Yoggoth uln ah syha'hoth 
 ebunma nilgh'ri vulgtlagln throd, ph'mnahn' Cthulhu hafh'drnyar 
 nnnchtenff nog mnahn' kn'a naooboshu syha'h Yoggothor! 
+
+
+
+<a name="tldr"></a>
+## TLDR: I CAN HAZ RUN PROGRAM NAO
+
+Install Pelican. Install the atom-hammer-theme for Pelican. 
+
+```
+pip install Markdown
+pip install pelican
+git clone https://github.com/charlesreid1/atom-hammer-theme
+pelican-themes -i atom-hammer-theme
+```
+
+Install asmodeus.
+
+```
+git clone https://github.com/charlesreid1/asmodeus
+cd asmodeus
+```
+
+Install NLTK and TextBlob. Install Olipy.
+
+```
+pip install TextBlob
+pip install nltk
+git clone http://github.com/leonardr/olipy
+```
+
+This project works by running a cascade of scripts that each do one thing and feed the result to the next. 
+To make posts and regenerate Pelican static content, just run the driver:
+
+```
+python Driver.py
+```
 
 
 
@@ -42,6 +83,13 @@ To install Pelican, use pip:
 ```
 pip install Markdown
 pip install pelican
+```
+
+To install the atom-hammer-theme for Pelican, get a copy:
+
+```
+git clone https://github.com/charlesreid1/atom-hammer-theme
+pelican-themes -i atom-hammer-theme
 ```
 
 ### Directories and Files

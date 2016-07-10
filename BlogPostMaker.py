@@ -1,5 +1,6 @@
 from ContentGeneration import generate_content, prefix
 from datetime import datetime
+import random
 
 def make_a_blog_post():
     """
@@ -10,11 +11,12 @@ def make_a_blog_post():
     - Location of blog file
     """
     # Blog file
+    myrand = random.randint(0,100000)
     file_prefix = datetime.now().strftime("%Y-%m-%d")
-    blog_file = prefix+"/pelican/content/%s.md"%(file_prefix)
+    blog_file = prefix+"/pelican/content/%s_%d.md"%(file_prefix,myrand)
 
     # Header
-    my_title = "Dino Ipsum "+file_prefix
+    my_title = "Dino Ipsum %d"%(myrand)
     my_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     my_cat = "Dinosaurs"
 
