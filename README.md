@@ -6,13 +6,13 @@
 
 [TLDR: I CAN HAZ RUN PROGRAM NAO](#tldr)
 
-[The Pelican Blog Site](#pelican) (Status: in progress)
+[The Pelican Blog Site](#pelican) (Status: done)
 
 [The Static Content Generator Toolchain](#content) (Status: done)
 
 [The Commit Toolchain](#commit) (Status: not started)
 
-[The Scheduling Toolchain](#scheduling) (Status: not started)
+[The Scheduling Toolchain](#scheduling) (Status: in progress)
 
 
 
