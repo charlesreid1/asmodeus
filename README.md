@@ -4,7 +4,7 @@
 
 [about](#about)
 
-[TLDR: I CAN HAZ RUN PROGRAM NAO](#tldr)
+[TLDR: Up and Running](#tldr)
 
 [The Pelican Blog Site](#pelican) (Status: done)
 
@@ -33,7 +33,7 @@ nnnchtenff nog mnahn' kn'a naooboshu syha'h Yoggothor!
 
 
 <a name="tldr"></a>
-## TLDR: I CAN HAZ RUN PROGRAM NAO
+## TLDR: Up and Running
 
 Install Pelican. Install the atom-hammer-theme for Pelican. 
 
