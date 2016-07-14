@@ -44,7 +44,7 @@ git clone https://github.com/charlesreid1/atom-hammer-theme
 pelican-themes -i atom-hammer-theme
 ```
 
-Install asmodeus.
+Clone a copy of this repository (asmodeus).
 
 ```
 git clone https://github.com/charlesreid1/asmodeus

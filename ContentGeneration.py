@@ -5,13 +5,25 @@ import textwrap
 
 prefix = "/Volumes/noospace/Users/charles/codes/asmodeus/"
 
-def generate_content():
+
+
+def generate_content(topic='dinosaurs'):
     """
-    This method is simple, but it could use some more arguments.
+    This method generates some text.
+
+    The default topic is dinosaurs. 
+
+    It could use some more arguments:
     - Dinosaurs, or asteroids?
     - Custom text generation modules?
     - Number of lines/items?
     """
+
+
+
+
+    # =================================
+    # Assemble Words
 
     assembler = WordAssembler(load_json("dinosaurs.json"))
     
@@ -30,6 +42,9 @@ def generate_content():
     body = "\n\n".join(dinos)
     
     return body
+
+
+
 
 if __name__=="__main__":
     print generate_content()
