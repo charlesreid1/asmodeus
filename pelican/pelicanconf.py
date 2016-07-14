@@ -6,10 +6,10 @@ AUTHOR = u'charlesreid1'
 SITENAME = u'Asmodeus'
 
 # If you are building this for Github, you need to use the site prefix /project-name
-#SITEURL = ''
+SITEURL = '/asmodeus'
 
 # If you are building this for local testing, you need to use the site prefix /
-SITEURL=''
+#SITEURL=''
 
 PATH = 'content'
 
@@ -21,16 +21,6 @@ DEFAULT_LANG = u'en'
 
 
 # --------------8<---------------------
-
-SITETAGLINE = "This Is The Site Tagline"
-
-### # this image must be in content/images/
-### SITEIMG = "Apollo12ConradSurveyor.jpg" 
-### IMGVERTOFFSET = "120px"
-
-BLOGTITLE = "This Is The Blog Title"
-
-
 
 THEME = 'atom-hammer-theme'
 
