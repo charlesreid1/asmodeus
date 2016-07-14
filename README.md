@@ -19,17 +19,9 @@
 <a name="about"></a>
 ## About 
 
-Attempting demonic possession of my Github account. What could possibly go wrong?
-
-Oops, shouldn't have run that script. Let me just...
-
-Wait... what's... oh no! No no no noooooo...
-
-Fm'latgh hrii nnnep uaaah kn'a vulgtm y'hahor ph'orr'e lloig, 
-'fhalma ph'bug lw'nafh fm'latghoth Yoggoth uln ah syha'hoth 
-ebunma nilgh'ri vulgtlagln throd, ph'mnahn' Cthulhu hafh'drnyar 
-nnnchtenff nog mnahn' kn'a naooboshu syha'h Yoggothor! 
-
+This repository contians code for creating procedurally-generated content
+(i.e., a Lorem Ipsum-like robot gibberish) and using it to populate information
+on a page.
 
 
 <a name="tldr"></a>
