@@ -1,0 +1,26 @@
+body {
+    font-size: 14px;
+}
+/*
+a {
+    font-size: 18px;
+}
+*/
+pre {
+    background-color: #00384C;
+    color: #fff;
+    border: 1px solid #005C77;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*
+ * blog archives... don't need any styling, I guess.
+ */
+li.archive {
+    /*background-color: #000;*/
+}
+
+
+
+
