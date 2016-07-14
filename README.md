@@ -226,9 +226,7 @@ to the `gh-pages` branch.
 <a name="scheduling"></a>
 ## The Scheduling Toolchain
 
-Using libfaketime and other trickery to make the commit graph look just so.
-
-This will take some thinking through...
+Code for using libfaketime with git to follow a commit schedule.
 
 ### Tools Required
 
