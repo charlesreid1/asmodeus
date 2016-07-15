@@ -4,15 +4,15 @@
 
 [about](#about)
 
-[TLDR: Up and Running](#tldr)
+[TLDR: Up and Running](#tldr) 
 
-[The Pelican Blog Site](#pelican) (Status: done)
+[The Pelican Blog Site](#pelican) (DONE)
 
-[The Static Content Generator Toolchain](#content) (Status: done)
+[The Static Content Generator Toolchain](#content) (DONE)
 
-[The Commit Toolchain](#commit) (Status: not started)
+[The Commit Toolchain](#commit) 
 
-[The Scheduling Toolchain](#scheduling) (Status: in progress)
+[The Scheduling Toolchain](#scheduling) 
 
 
 
@@ -137,13 +137,12 @@ To generate the static content for Github Pages:
 
 <hr />
 <a name="content"></a>
-## The Content Generation Toolchain
+## The Content Generation Toolchain (DONE)
 
-This bot will automatically generate text using Olipy, a procedural and artistic text generation library.
-
-It will then generate blog posts using the automatically generated text.
-
-Finally, it will re-generate the static content for the Pelican blog.
+The content generation toolchain covers the part of the process
+where we procedurally generate text using Olipy.
+That text is used to create new blog posts.
+The new blog posts are used to generate new static content with pelican.
 
 ### Tools Required
 
