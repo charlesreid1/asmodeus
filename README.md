@@ -238,3 +238,7 @@ cd libfaketime
 make
 ```
 
+### Directories and Files
+
+`GitAddBlogPostsYesterday.py` - makes commits of blog contents, yesterday.
+
