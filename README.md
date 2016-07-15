@@ -16,6 +16,10 @@
 
 
 
+
+
+
+<hr />
 <a name="about"></a>
 ## About 
 
@@ -24,6 +28,11 @@ This repository contians code for creating procedurally-generated content
 on a page.
 
 
+
+
+
+
+<hr />
 <a name="tldr"></a>
 ## TLDR: Up and Running
 
@@ -60,6 +69,10 @@ python Driver.py
 
 
 
+
+
+
+<hr />
 <a name="pelican"></a>
 ## The Pelican Site
 
@@ -119,6 +132,10 @@ To generate the static content for Github Pages:
 
 
 
+
+
+
+<hr />
 <a name="content"></a>
 ## The Content Generation Toolchain
 
@@ -185,6 +202,10 @@ See the `example.dinosaurs.py` file for an example of how this can be set up.
 
 
 
+
+
+
+<hr />
 <a name="commit"></a>
 ## The Commit Toolchain
 
@@ -215,6 +236,10 @@ to the `gh-pages` branch.
 
 
 
+
+
+
+<hr />
 <a name="scheduling"></a>
 ## The Scheduling Toolchain
 
@@ -237,6 +262,11 @@ git clone https://github.com/wolfcw/libfaketime
 cd libfaketime
 make
 ```
+
+### Running
+
+See [faketime/README.md](https://github.com/charlesreid1/asmodeus/blob/master/faketime/README.md) 
+for more details on running a simple C program through libfaketime.
 
 ### Directories and Files
 
