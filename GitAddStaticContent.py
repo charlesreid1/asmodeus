@@ -1,4 +1,4 @@
-import git
+import subprocess
 
 """
 This script adds the newly-generated static content to the gh-pages branch
@@ -17,18 +17,24 @@ and into the gh-pages branch.
 
 """
 
+# Asmodeus on github
+gh = 'https://github.com/charlesreid1/asmodeus'
 
-
-# Figure out where the new static content lives 
+# Path to asmodeus pelican directory:
 pelican_dir = '/Volumes/noospace/Users/charles/codes/asmodeus/pelican/'
+
+# Path to Pelican static countent output directory:
 static_dir = pelican_dir + 'output/'
 
-# Need to verify that output/ is also the gh-pages branch
-# 
-
-# Now we are going to commit whatever changes are in the output/ directory
-# NOTE:
-# This should also check out a copy of gh-pages into output/ directory 
-# (if we are running the real thing, for real)
-
+# rm -rf static_dir
+# git clone -b gh-pages https://github.com/charlesreid1/asmodeus output
+# # local testing
+# cp pelicanconf.local.py pelicanconf.py 
+# # big time
+# cp pelicanconf.ghpages.py pelicanconf.py 
+# pelican content
+# cd output 
+# git add *
+# git commit -a -m 'automated update XYZ'
+# git push origin gh-pages
 
