@@ -1,4 +1,5 @@
-from BlogPostMaker import make_a_blog_post, prefix
+from BlogPostMaker import make_a_blog_post
+from ContentGeneration import prefix
 import subprocess 
 
 def pelican_static_content():

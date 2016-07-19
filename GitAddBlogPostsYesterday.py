@@ -7,6 +7,10 @@ create a git commit with that particular
 date and time. 
 
 Do not push (publish), by default.
+
+
+print(datetime.strftime(datetime.now(),"The current date is %Y-%m-%d"))
+print(datetime.strftime(datetime.now(),"The current time is %H:%M:%S"))
 """
 
 def git_add_static_content_yesterday(when=datetime.now(),publish=False):
