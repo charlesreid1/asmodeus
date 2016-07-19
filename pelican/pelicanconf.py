@@ -6,10 +6,10 @@ AUTHOR = u'charlesreid1'
 SITENAME = u'Asmodeus'
 
 # If you are building this for Github, you need to use the site prefix /project-name
-#SITEURL = '/asmodeus'
+SITEURL = '/asmodeus'
 
 # If you are building this for local testing, you need to use the site prefix /
-SITEURL=''
+#SITEURL=''
 
 PATH = 'content'
 
