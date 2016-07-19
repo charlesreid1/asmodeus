@@ -1,3 +1,4 @@
+from ContentGeneration import prefix
 import subprocess 
 
 """
@@ -10,17 +11,28 @@ Various other scripts will do the hard work of creating new content for the blog
 
 """
 
-# Asmodeus on github
-gh = 'https://github.com/charlesreid1/asmodeus'
+def git_add_static_content():
+    """
+    Add fresh static content
+    to the gh-pages branch
+    """
 
-# Path to asmodeus pelican directory:
-pelican_dir = '/Volumes/noospace/Users/charles/codes/asmodeus/pelican/'
+    # Asmodeus on github
+    gh = 'https://github.com/charlesreid1/asmodeus'
+    
+    # Path to asmodeus pelican directory:
+    pelican_dir = '/Volumes/noospace/Users/charles/codes/asmodeus/pelican/'
 
-# Path to Pelican static countent output directory:
-static_dir = pelican_dir + 'output/'
+    # Path to Pelican static countent output directory:
+    static_dir = pelican_dir + 'output/'
 
-# cd content
-# git add *
-# git commit -a -m 'adding new blog posts, update XYZ'
-# git push origin master
+    # cd output 
+    # git add *
+    # git commit -a -m 'new static content, update XYZ'
+    # git push origin gh-pages
+
+    ### # Use as template:
+    ### print prefix
+    ### my_dir = prefix+'/pelican/'
+    ### subprocess.call(['pelican','-D','content/'], cwd=my_dir)
 

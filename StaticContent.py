@@ -12,12 +12,12 @@ def pelican_static_content():
     (if we are running the real thing, for real)
     """
 
-    make_a_blog_post()
-
     print prefix
 
     my_dir = prefix+'/pelican/'
     subprocess.call(['pelican','-D','content/'], cwd=my_dir)
+
+    return 0
 
 if __name__=="__main__":
     pelican_static_content()
