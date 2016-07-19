@@ -16,6 +16,7 @@ def pelican_static_content():
     print prefix
 
     my_dir = prefix+'/pelican/'
+    subprocess.call(['cp','publish.pelicanconf.py','pelicanconf.py'], cwd=my_dir)
     subprocess.call(['pelican','-D','content/'], cwd=my_dir)
 
     return 0
