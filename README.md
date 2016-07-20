@@ -10,7 +10,7 @@
 
 [The Static Content Generator Toolchain](#content) (DONE)
 
-[The Commit Toolchain](#commit) 
+[The Commit Toolchain](#commit) (DONE)
 
 [The Scheduling Toolchain](#scheduling) 
 
@@ -74,7 +74,7 @@ python Driver.py
 
 <hr />
 <a name="pelican"></a>
-## The Pelican Site
+## The Pelican Site (Done)
 
 This bot will manage a website with Pelican, a static page generator for Python.
 
@@ -206,55 +206,30 @@ See the `example.dinosaurs.py` file for an example of how this can be set up.
 
 <hr />
 <a name="commit"></a>
-## The Commit Toolchain
+## The Commit Toolchain (DONE)
 
-When automatically generated content has been turned into a new blog post, 
-and the static content for the site has been updated, 
-it is time to actually commit changes. This portion of the code 
-enables adding colorful dots to your commit graph. 
-
-### Tools Required
-
-This requires the git library for Python to allow Python to interface with git. 
-
-The git library allows you to create a Python object representing the repository,
-and use it to interact with the git repository in various ways.
-
-We want to do two things:
-* Add the markdown for the new blog posts to the master branch
-* Add the newly-generated static content to the gh-pages branch
-
-### Directories and Files
-
-`GitAddBlogPosts.py` - adds the new blog post in the `pelican/` directory 
-to the `master` branch.
-
-`GitAddStaticContent.py` - adds the updated Pelican blog static content 
-to the `gh-pages` branch.
-
-
-
-
-
-
-
-<hr />
-<a name="scheduling"></a>
-## The Scheduling Toolchain
-
-Code for using libfaketime with git to follow a commit schedule.
+There are two scripts that show you how to take care of the commit toolchain:
+* `GitAddBlogPosts.py` - demonstrates the use of Pelican and GitHub to 
+    re-make static content using Pelican, then check the statically generated
+    content into a GitHub repository.
+* `GitAddBlogPostsYesterday.py` - demonstrates the linking of libfaketime with git
+    to check content into a repository using a fake date and time. I used this
+    to successfully create several commits at 2 in the morning on June 30 of 2013.
 
 ### Tools Required
 
-Libfaketime:
+Most of the tools used in this section are stock Python libraries, meaning no extra
+software is required. (No git-python API, no language bindings, system-level calls only.)
 
-On Mac OS X,
+The exception is the libfaketime library.
+
+On Mac OS X, install libfaketime like this:
 
 ````
 brew install libfaketime
 ```
 
-On Linux,
+On Linux, install libfaketime like this:
 
 ```
 git clone https://github.com/wolfcw/libfaketime
@@ -262,12 +237,46 @@ cd libfaketime
 make
 ```
 
+### Directories and Files
+
+* `GitAddBlogPosts.py` - adds content to gh-pages branch
+* `GitAddBlogPostsYesterday.py` - adds content to gh-pages branch yesterday
+
+Both scripts accomplish two basic tasks: 
+* (Optionally,) check out a fresh copy of the gh-pages branch of the Asmodeus repository
+* Make static content using the current version of the master branch
+* Add the newly-generated static content to the gh-pages brnach
+
+The `GitAddBlogPosts.py` file does both of these.
+
+The `GitAddBlogPostsYesterday.py` file does both of these, but it does the second
+(checking content into the GitHub repository) in a special way that obscures the
+true date of the commit.
+
+
+
+<hr />
+<a name="scheduling"></a>
+## The Scheduling Toolchain
+
+Code for creating a commit schedule for libfaketime.
+
+### Tools Required
+
+Graph paper. Each drawing has a certain width, corresponding to a number of weeks. 
+Each day of the week corresponds to a particular height.
+Fed in a grid of 7 x N squares, and a starting or ending date, this can be converted into a list of datetime stamps.
+
 ### Running
 
 See [faketime/README.md](https://github.com/charlesreid1/asmodeus/blob/master/faketime/README.md) 
 for more details on running a simple C program through libfaketime.
 
+These scripts focus on 
+
 ### Directories and Files
 
-`GitAddBlogPostsYesterday.py` - makes commits of blog contents, yesterday.
+* `faketime/` - directory with a basic C program that prints the "current" date and time. 
+    This is useful for testing libfaketime.
+
 

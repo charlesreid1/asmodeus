@@ -46,14 +46,5 @@ def git_add_static_content(publish=False,superclean=False):
     if publish is True:
         subprocess.call(['git','push','origin','gh-pages'],cwd=output_dir)
 
-    # cd pelican
-    # rm -rf output
-    # git clone -b gh-pages //asmodeus
-    # pelican content
-    # cd output
-    # git add -a 
-    # git commit 
-    # git push
-
     return 0
 
