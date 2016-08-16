@@ -261,18 +261,30 @@ true date of the commit.
 
 Code for creating a commit schedule for libfaketime.
 
-### Tools Required
+The commit schedule turns a 7-grid-high pixel drawing
+into a sequence of commits that will draw it on the Github
+commit graph.
 
-Graph paper. Each drawing has a certain width, corresponding to a number of weeks. 
-Each day of the week corresponds to a particular height.
-Fed in a grid of 7 x N squares, and a starting or ending date, this can be converted into a list of datetime stamps.
+Each repository will have its own set of commits, 
+so if you screw up the drawing, or otherwise aren't happy with it,
+just delete the repository.
+
+### Tools
+
+* Graph paper: 7 days of week = 7 pixels high. 52 weeks = 52 columns.
+* Fancy date math - counting days starting from a known point, e.g., "last Saturday"
 
 ### Running
 
 See [faketime/README.md](https://github.com/charlesreid1/asmodeus/blob/master/faketime/README.md) 
 for more details on running a simple C program through libfaketime.
 
-These scripts focus on 
+Basically, what we're doing is this:
+* Turning a pixel drawing into a bunch of boxes
+* Turning those boxes into a set of dates
+* Feeding those dates to libfaketime 
+* Generating a bunch of fake commits for each date 
+* Committing them to a new Github repository via libfaketime
 
 ### Directories and Files
 
