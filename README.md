@@ -298,12 +298,6 @@ Basically, what we're doing is this:
 
 * `DATES.txt` - output file from CreateDatesList, list of dates required to draw your space invader or whatever.
 
-* `GithubCheckinScript.py` - given a list of dates as input, make a .sh file 
-    as output that will, in one go, back-commit everything that is needed,
-    possibly just using sample file names but that will eventually be hooked up with
-    the fire hose that is automatically-generated blog content.
-
-
 
 
 <hr />
@@ -325,4 +319,22 @@ so that the Github commit graph will make a funny drawing of a space invader.
    %%   %           %   %%
    %%   %%%%%   %%%%%   %%
 ```
+
+### Directories and Files
+
+A note on directory structure and all of that: 
+* You will create a new space invader repository to put your drawing on your commit graph. You'll copy all the files you need into that repository.
+* Check out a local copy of the new space invader repository.
+* Pelican files should be already prepared and in the space invader repository.
+* `gh-pages` branch should already be created and checked out in `pelican/source/`.
+* Copy the scripts that are needed over to the space invaders repository directory and check them in there.
+* Check out a copy of Olipy in the space invaders repository directory. You'll run the script from there, and it will look for Olipy there.
+
+Now, the list of files:
+
+* `ScriptGenerator.py` - given a list of dates, this generates a script
+    that will fully populate the github repo with the necessary garbage
+    to make a funny commit graph. 
+
+* `BigMcNasty.py` - the final Big McNasty script
 
