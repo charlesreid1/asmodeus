@@ -292,15 +292,16 @@ Basically, what we're doing is this:
 * `faketime/` - directory with a basic C program that prints the "current" date and time. 
     This is useful for testing libfaketime.
 
-* `DRAWING.txt` - the drawing/diagram/figure you want plastered on your github timeline.
+* `DRAWING.txt` - input file to CreateDatesList.py, the drawing/diagram/figure you want plastered on your github timeline.
 
 * `CreateDatesList.py` - for a given drawing, generate a list of dates to fill in that drawing.
+
+* `DATES.txt` - output file from CreateDatesList, list of dates required to draw your space invader or whatever.
 
 * `GithubCheckinScript.py` - given a list of dates as input, make a .sh file 
     as output that will, in one go, back-commit everything that is needed,
     possibly just using sample file names but that will eventually be hooked up with
     the fire hose that is automatically-generated blog content.
-
 
 
 
