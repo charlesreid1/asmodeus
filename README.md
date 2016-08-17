@@ -12,8 +12,9 @@
 
 [The Commit Toolchain](#commit) (DONE)
 
-[The Scheduling Toolchain](#scheduling) 
+[The Scheduling Toolchain](#scheduling) (IN PROGRESS)
 
+[The Big McNasty](#bigmcnasty)
 
 
 
@@ -291,4 +292,36 @@ Basically, what we're doing is this:
 * `faketime/` - directory with a basic C program that prints the "current" date and time. 
     This is useful for testing libfaketime.
 
+* `DRAWING.txt` - the drawing/diagram/figure you want plastered on your github timeline.
+
+* `CreateDatesList.py` - for a given drawing, generate a list of dates to fill in that drawing.
+
+* `GithubCheckinScript.py` - given a list of dates as input, make a .sh file 
+    as output that will, in one go, back-commit everything that is needed,
+    possibly just using sample file names but that will eventually be hooked up with
+    the fire hose that is automatically-generated blog content.
+
+
+
+
+
+<hr />
+<a name="bigmcnasty"></a>
+## The Big McNasty
+
+Tis section covers the final, nasty, ugly, uncomfortable, despicable, unholy, 
+Texas-sized hairball of a script that will make this whole Rube Goldberg machine go.
+
+The end result will be procedurally generated blog posts, automatically processed
+into static content, pushed to Github Pages, and back-dated, with all of this being done 
+so that the Github commit graph will make a funny drawing of a space invader.
+
+```
+         %%       %%
+        %%%%%%%%%%%%% 
+     %%%%   %%%%%   %%%%
+   %%%%%%%%%%%%%%%%%%%%%%%
+   %%   %           %   %%
+   %%   %%%%%   %%%%%   %%
+```
 
