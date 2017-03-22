@@ -22,6 +22,7 @@
 
 <hr />
 <a name="about"></a>
+
 ## About 
 
 This repository contians code for creating procedurally-generated content
@@ -35,6 +36,7 @@ on a page.
 
 <hr />
 <a name="tldr"></a>
+
 ## TLDR: Up and Running
 
 Install Pelican. Install the atom-hammer-theme for Pelican. 
@@ -75,6 +77,7 @@ python Driver.py
 
 <hr />
 <a name="pelican"></a>
+
 ## The Pelican Site (Done)
 
 This bot will manage a website with Pelican, a static page generator for Python.
@@ -138,6 +141,7 @@ To generate the static content for Github Pages:
 
 <hr />
 <a name="content"></a>
+
 ## The Content Generation Toolchain (DONE)
 
 The content generation toolchain covers the part of the process
@@ -207,6 +211,7 @@ See the `example.dinosaurs.py` file for an example of how this can be set up.
 
 <hr />
 <a name="commit"></a>
+ 
 ## The Commit Toolchain (DONE)
 
 There are two scripts that show you how to take care of the commit toolchain:
@@ -226,7 +231,7 @@ The exception is the libfaketime library.
 
 On Mac OS X, install libfaketime like this:
 
-````
+```
 brew install libfaketime
 ```
 
@@ -258,6 +263,7 @@ true date of the commit.
 
 <hr />
 <a name="scheduling"></a>
+
 ## The Scheduling Toolchain
 
 Code for creating a commit schedule for libfaketime.
@@ -302,6 +308,7 @@ Basically, what we're doing is this:
 
 <hr />
 <a name="bigmcnasty"></a>
+
 ## The Big McNasty
 
 Tis section covers the final, nasty, ugly, uncomfortable, despicable, unholy, 
