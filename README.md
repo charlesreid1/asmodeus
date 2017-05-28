@@ -6,13 +6,13 @@
 
 [TLDR: Up and Running](#tldr) 
 
-[The Pelican Blog Site](#pelican) (DONE)
+[The Pelican Blog Site](#pelican)
 
-[The Static Content Generator Toolchain](#content) (DONE)
+[The Static Content Generator Toolchain](#content)
 
-[The Commit Toolchain](#commit) (DONE)
+[The Commit Toolchain](#commit)
 
-[The Scheduling Toolchain](#scheduling) (IN PROGRESS)
+[The Scheduling Toolchain](#scheduling) 
 
 [The Big McNasty](#bigmcnasty)
 
