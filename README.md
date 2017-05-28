@@ -39,19 +39,23 @@ on a page.
 
 ## TLDR: Up and Running
 
-Install Pelican. Install the atom-hammer-theme for Pelican. 
+Install Pelican. This used a simple Pelican theme called atom-hammer:
+
+https://charlesreid1.com:3000/charlesreid1/atom-hammer-theme
+
+Install the atom-hammer-theme for Pelican. 
 
 ```
 pip install Markdown
 pip install pelican
-git clone https://github.com/charlesreid1/atom-hammer-theme
+git clone https://charlesreid1.com:3000/charlesreid1/atom-hammer-theme
 pelican-themes -i atom-hammer-theme
 ```
 
 Clone a copy of this repository (asmodeus).
 
 ```
-git clone https://github.com/charlesreid1/asmodeus
+git clone https://charlesreid1.com:3000/charlesreid1/asmodeus
 cd asmodeus
 ```
 
@@ -69,7 +73,6 @@ To make posts and regenerate Pelican static content, just run the driver:
 ```
 python Driver.py
 ```
-
 
 
 
@@ -97,7 +100,7 @@ pip install pelican
 To install the atom-hammer-theme for Pelican, get a copy:
 
 ```
-git clone https://github.com/charlesreid1/atom-hammer-theme
+git clone https://charlesreid1.com:3000/charlesreid1/atom-hammer-theme
 pelican-themes -i atom-hammer-theme
 ```
 
@@ -109,7 +112,16 @@ pelican-themes -i atom-hammer-theme
 
 `gh-pages` branch - contains the static content, which is served up by Github Pages.
 
-[http://charlesreid1.github.io/asmodeus](http://charlesreid1.github.io/asmodeus) - webpage where the static content is served up.
+[https://charlesreid1.com:3000/charlesreid1/asmodeus](https://charlesreid1.com:3000/charlesreid1/asmodeus)
+
+If you add this repo to github, and push to github, 
+it will add the commits to your github timeline and create
+space invader drawings in your github timeline.
+
+It will publish the procedurally generated content to a url like this:
+[http://charlesreid1.github.io/asmodeus](http://charlesreid1.github.io/asmodeus)
+
+That's a webpage where the static content (gibberish) is served up.
 
 ### Instructions
 
